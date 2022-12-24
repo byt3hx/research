@@ -1,4 +1,4 @@
-# AD manager Plus log4j remote code execution affected before version 7122
+# AD manager Plus Remote Code Execution
 
 ### Description
 
