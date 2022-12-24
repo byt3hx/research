@@ -1,3 +1,5 @@
+# AD manager Plus log4j remote code execution affected before version 7122
+
 ### Description
 
 In the summer of 2022, I have been doing security engagement on Synack Red Team in the collaboration with my good friend (Thura Moe Myint). At that time, Log4j was already widespread on the internet. Manage Engine had already patched the Ad Manager Plus to prevent it from being affected by the Log4j vulnerability. They had mentioned that Log4j was not affected by Ad Manager Plus. However, we determined that the Ad Manager Plus was running on our target and managed to exploit the Log4j vulnerability.
@@ -31,4 +33,8 @@ When we initially reported this vulnerability to Synack, we only managed to get 
 
 ### Conclusion
 
-We had already informed Zoho about the log4j vulnerability, and even after it was fixed, they decided to reward us with a bonus bounty for our report.
+We had already informed Zoho about the log4j vulnerability, and even after it was fixed, they decided to reward us with a bonus bounty for our report. 
+
+### Mitigation
+
+Updating to a version of Ad Manager Plus higher than 7122 should resolve the issue.
